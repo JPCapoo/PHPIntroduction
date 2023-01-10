@@ -1,0 +1,16 @@
+{
+    "name": "capob/introduccion-phpoop_inicio",
+    "description": "Aprendiendo Namespaces y Autoload",
+    "authors": [{
+        "name": "Juan",
+        "email": "correo@correo.com"
+    }],
+    "require": {
+        "firebase/php-jwt": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./clases"
+        }
+    }
+}
